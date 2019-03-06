@@ -28,15 +28,15 @@ In the meantime, merchants can easily target the most potential customers and pu
 ## Ads Searching System Schema:  
 ### Query Understanding:  
    *  Cleaning:
-     *  remove stop words: a, an, the ...
-     *  remove ending s, ‘s
+       *  remove stop words: a, an, the ...
+       *  remove ending s, ‘s
    *  Query Intent Prediction:  
-     *  predict user’s intent
-     *  buy Harry Potter DVD online -> Harry Potter DVD
+       *  predict user’s intent
+       *  buy Harry Potter DVD online -> Harry Potter DVD
      *  need query history log  
    *  Query Expansion:  
-     *  nike running shoe -> nike running sneakers  
-     *  software developer -> software engineer  
+       *  nike running shoe -> nike running sneakers  
+       *  software developer -> software engineer  
    Result: a list of query    
 ### Selevt Ads:   
   *  send query understand result to index and select as much candidates as possible  
