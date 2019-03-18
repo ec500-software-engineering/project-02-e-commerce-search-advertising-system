@@ -86,6 +86,10 @@ Comparision:
    * Cons:   
           1. Need more storage space  
           2. Need more machines or CPU to parse HTML  
+   
+diagrams of crawler and distributed crawler:   
+![Image text](https://github.com/ec500-software-engineering/project-e-commerce-search-advertising-system/blob/master/images/crawler.png)  
+![Image text](https://github.com/ec500-software-engineering/project-e-commerce-search-advertising-system/blob/master/images/distributed%20crawler.png)
              
 Where to start crawling
    * start with feeds file
