@@ -76,13 +76,16 @@ Two design choice
 Comparision:  
 * Synchronously  
    * Pros: Save disk space  
-   * Cons: 1. If need extract more data then have to crawl again  
-           2. Crawling is blocked by parsing HTML  
+   * Cons: 
+          1. If need extract more data then have to crawl again  
+          2. Crawling is blocked by parsing HTML  
 * Asynchronously
-   * Pros: 1. Re-parse HTML if needed  
-           2. unblock crawling from parsing HTML
-   * Cons: 1. Need more storage space  
-           2. Need more machines or CPU to parse HTML  
+   * Pros: 
+          1. Re-parse HTML if needed  
+          2. unblock crawling from parsing HTML
+   * Cons: 
+          1. Need more storage space  
+          2. Need more machines or CPU to parse HTML  
              
 Where to start crawling
    * start with feeds file
