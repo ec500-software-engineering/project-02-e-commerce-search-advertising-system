@@ -24,23 +24,24 @@ In the meantime, merchants can easily target the most potential customers and pu
 ## How does it work:  
 1. Merchants provide a list of ads which contain keywords, bid price, and total budget. Our system store all the information and build the forwarded and inverted indexes.    
 2. When user types the query on the search box, the system parses the query and calculates the relevant score between the query and the ads. Then the system processes a workflow to select, filter, price, and allocate the relevant ads.    
-3. Finally the ads is sent and displayed to the user interface.   
-Note:
-Search Ads   
-  *  logic:      
-      *  match ad's key words to users' query    
-  *  Ads format:
-      *  text
-      *  image
-  *  Ads position:      
-      *  main line, side bar, top, bottom of search result. 
-Ads keyword
-  * Campaign
-    * A campaign focuses on a theme or a group of products
-  * set a budget
-  * choose your audience
-  * write your ads including keywords and content.
-  * Google Adwords is also a good place to make your own ads.
+3. Finally the ads is sent and displayed to the user interface. 
+     
+Note:  
+* Search Ads
+    *  logic:      
+        *  match ad's key words to users' query    
+    *  Ads format:
+        *  text
+        *  image
+    *  Ads position:      
+        *  main line, side bar, top, bottom of search result.
+* Ads keyword
+    * Campaign
+      * A campaign focuses on a theme or a group of products
+    * set a budget
+    * choose your audience
+    * write your ads including keywords and content.
+    * Google Adwords is also a good place to make your own ads.
 
 ## Ads Searching System Schema:  
 ### Query Understanding:  
@@ -71,6 +72,7 @@ Making requests and extracting data from the response.
 Two design choice
  * Parse HTML page synchronously
  * Parse HTML page asynchronously  
+   
 Comparision:  
 * Synchronously  
    * Pros: Save disk space  
@@ -81,6 +83,7 @@ Comparision:
            2. unblock crawling from parsing HTML
    * Cons: 1. Need more storage space  
            2. Need more machines or CPU to parse HTML  
+             
 Where to start crawling
    * start with feeds file
    * a list of website url
