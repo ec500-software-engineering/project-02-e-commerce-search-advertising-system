@@ -26,7 +26,7 @@ In the meantime, merchants can easily target the most potential customers and pu
 2. When user types the query on the search box, the system parses the query and calculates the relevant score between the query and the ads. Then the system processes a workflow to select, filter, price, and allocate the relevant ads.    
 3. Finally the ads is sent and displayed to the user interface.   
 Note:
-* Search Ads   
+Search Ads   
   *  logic:      
       *  match ad's key words to users' query    
   *  Ads format:
@@ -34,7 +34,7 @@ Note:
       *  image
   *  Ads position:      
       *  main line, side bar, top, bottom of search result. 
-* Ads keyword
+Ads keyword
   * Campaign
     * A campaign focuses on a theme or a group of products
   * set a budget
