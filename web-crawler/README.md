@@ -9,6 +9,13 @@ This is a web crawler to collect merchandise information from an e-commerce web 
 
 ## Format of input files
 
+File Path Settings:   
+args[0] is file path for rawQuery.txt,    
+args[1] is file path for adsData,   
+ards[2] is file path for proxylist.csv,   
+args[3] is file path for logfile.
+
+
 proxylist:
 ```java
 [ip],[port],[port],[user],[password]
