@@ -7,6 +7,21 @@ This is a web crawler to collect merchandise information from an e-commerce web 
 - **Lucene** is used for filtering out stop words.
  This was originally written in **Python** using **NLTK(Natural Language Tool Kit)** package.
 
+## Format of input files
+
+proxylist:
+```java
+[ip],[port],[port],[user],[password]
+127.0.0.1,60099,61336,user,password
+```
+Currently, the username and password are hard coded in the AmazonCrawler class. Please modify it when you need.
+
+rawQueryData:
+```java
+[key words to search], [bid price], [campaignId], [queryGroupId]
+Prenatal DHA, 3.4, 8040,10
+```
+
 ## Features
 - Clean and tokenize title and query. (Replace Python code)
 - Set Ads keywords with tokenized title.
