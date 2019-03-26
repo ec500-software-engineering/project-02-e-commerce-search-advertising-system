@@ -1,6 +1,7 @@
 # Web Crawler
 
 This is a web crawler to collect merchandise information from an e-commerce web site.
+It is built for ads so that we can get data for building the ad engine, which returns some ads by matching key words.
 
 ## Development environment
 - **Jsoup** is used to retrieve web page content, parse the required text from the page.
