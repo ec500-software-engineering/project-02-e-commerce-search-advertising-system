@@ -44,7 +44,7 @@ mvn clean install
 ```
 ### Start crawling
 ```bash
-java -jar target/my-crawler-1.0.0.BUILD-SNAPSHOT.jar rawQuery.txt adsDataFile proxylist.csv logFile
+sh ./start-my-crawler.sh
 ```
 rawQuery.txt -- list of query strings to use for querying e-commerce web site.
 adsDataFile -- the output file for crawler generated ads result.
