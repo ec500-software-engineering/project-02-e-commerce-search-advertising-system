@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file:///Users/jiayangan/project/java/junit-4.12.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/json-20160807.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/spymemcached-2.12.1.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/lucene-4.0.0/analysis/common/lucene-analyzers-common-4.0.0.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/lucene-4.0.0/queryparser/lucene-queryparser-4.0.0.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/lucene-4.0.0/core/lucene-core-4.0.0.jar" />
+    <libelement value="file:///Users/jiayangan/project/jetty-distribution-9.2.19.v20160908/lib/servlet-api-3.1.jar" />
+    <libelement value="file:///Users/jiayangan/project/java/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/build/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.web.container" level="application" />
+    <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.module.container" level="application" />
+    <orderEntry type="module-library">
+      <library name="junit-4.12.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/junit-4.12.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-20160807.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/json-20160807.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spymemcached-2.12.1.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/spymemcached-2.12.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lucene-analyzers-common-4.0.0.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/lucene-4.0.0/analysis/common/lucene-analyzers-common-4.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lucene-queryparser-4.0.0.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/lucene-4.0.0/queryparser/lucene-queryparser-4.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lucene-core-4.0.0.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/lucene-4.0.0/core/lucene-core-4.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="servlet-api-3.1.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/jetty-distribution-9.2.19.v20160908/lib/servlet-api-3.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.40-bin.jar">
+        <CLASSES>
+          <root url="file:///Users/jiayangan/project/java/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
