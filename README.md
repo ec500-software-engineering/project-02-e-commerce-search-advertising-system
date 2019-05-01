@@ -56,7 +56,7 @@ Note:
        *  nike running shoe -> nike running sneakers  
        *  software developer -> software engineer  
    Result: a list of query    
-### Selevt Ads:   
+### Select Ads:   
   *  send query understand result to index and select as much candidates as possible  
   *  apply information retrieval algorithm on index server   
 ### Rank Ads:  
