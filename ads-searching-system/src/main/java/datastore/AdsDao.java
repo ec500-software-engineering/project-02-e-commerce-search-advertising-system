@@ -1,9 +1,9 @@
-package io.bittiger.ads.datastore;
+package datastore;
 
 import com.mongodb.*;
 import com.mongodb.client.MongoDatabase;
-import io.bittiger.ads.util.Ad;
-import io.bittiger.ads.util.Campaign;
+import util.Ad;
+import util.Campaign;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class AdsDao {
     private static AdsDao instance = null;

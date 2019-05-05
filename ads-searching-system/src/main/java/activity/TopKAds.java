@@ -1,13 +1,13 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.util.Ad;
+import util.Ad;
 
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class TopKAds {
     private static TopKAds instance = null;

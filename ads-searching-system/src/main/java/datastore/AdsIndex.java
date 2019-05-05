@@ -1,7 +1,7 @@
-package io.bittiger.ads.datastore;
+package datastore;
 
-import io.bittiger.ads.util.Ad;
-import io.bittiger.ads.util.Campaign;
+import util.Ad;
+import util.Campaign;
 import net.spy.memcached.AddrUtil;
 import net.spy.memcached.ConnectionFactory;
 import net.spy.memcached.ConnectionFactoryBuilder;
@@ -18,7 +18,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class AdsIndex {
     private static AdsIndex instance = null;

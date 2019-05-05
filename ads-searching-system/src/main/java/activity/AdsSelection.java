@@ -1,7 +1,7 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
+import datastore.AdsIndex;
+import util.Ad;
 
 import java.util.ArrayList;
 import java.util.Arrays;

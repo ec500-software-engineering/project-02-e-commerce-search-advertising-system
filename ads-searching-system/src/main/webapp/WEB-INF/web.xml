@@ -26,7 +26,7 @@
 
     <servlet>
         <servlet-name>SearchResult</servlet-name>
-        <servlet-class>io.bittiger.ads.web.SearchResult</servlet-class>
+        <servlet-class>web.SearchResult</servlet-class>
     </servlet>
 
     <servlet-mapping>

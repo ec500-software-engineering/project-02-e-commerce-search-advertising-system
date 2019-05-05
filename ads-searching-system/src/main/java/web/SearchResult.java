@@ -1,10 +1,10 @@
-package io.bittiger.ads.web;
+package web;
 
 import com.google.gson.Gson;
-import io.bittiger.ads.activity.AdsEngine;
-import io.bittiger.ads.datastore.AdsDao;
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
+import activity.AdsEngine;
+import datastore.AdsDao;
+import datastore.AdsIndex;
+import util.Ad;
 import org.json.JSONObject;
 
 import javax.servlet.ServletException;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 @WebServlet(urlPatterns = "/search")
 public class SearchResult extends HttpServlet {

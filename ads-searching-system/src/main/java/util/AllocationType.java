@@ -1,4 +1,4 @@
-package io.bittiger.ads.util;
+package util;
 
 public enum AllocationType {
     MAINLINE,

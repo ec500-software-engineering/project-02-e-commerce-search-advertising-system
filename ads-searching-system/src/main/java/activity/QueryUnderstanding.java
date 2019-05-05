@@ -1,4 +1,4 @@
-package io.bittiger.ads.activity;
+package activity;
 
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.TokenStream;

@@ -1,11 +1,11 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.util.Ad;
+import util.Ad;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class AdsFilter {
     private static AdsFilter instance = null;

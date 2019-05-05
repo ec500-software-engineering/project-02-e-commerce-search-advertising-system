@@ -1,9 +1,7 @@
-package io.bittiger.ads;
-
-import io.bittiger.ads.activity.AdsEngine;
-import io.bittiger.ads.datastore.AdsDao;
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
+import activity.AdsEngine;
+import datastore.AdsDao;
+import datastore.AdsIndex;
+import util.Ad;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,6 +1,6 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.util.Ad;
+import util.Ad;
 
 import java.util.List;
 

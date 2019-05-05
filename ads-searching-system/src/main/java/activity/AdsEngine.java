@@ -1,10 +1,10 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.datastore.AdsDao;
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
-import io.bittiger.ads.util.AllocationType;
-import io.bittiger.ads.util.Campaign;
+import datastore.AdsDao;
+import datastore.AdsIndex;
+import util.Ad;
+import util.AllocationType;
+import util.Campaign;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class AdsEngine {
 

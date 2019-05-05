@@ -1,11 +1,11 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.util.Ad;
-import io.bittiger.ads.util.AllocationType;
+import util.Ad;
+import util.AllocationType;
 
 import java.util.List;
 
-import static io.bittiger.ads.util.Config.*;
+import static util.Config.*;
 
 public class AdsAllocation {
     private static AdsAllocation instance = null;

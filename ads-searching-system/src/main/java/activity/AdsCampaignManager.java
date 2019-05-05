@@ -1,15 +1,15 @@
-package io.bittiger.ads.activity;
+package activity;
 
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
-import io.bittiger.ads.util.Campaign;
+import datastore.AdsIndex;
+import util.Ad;
+import util.Campaign;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import static io.bittiger.ads.util.Config.MIN_RESERVE_PRICE;
+import static util.Config.MIN_RESERVE_PRICE;
 
 public class AdsCampaignManager {
     private static AdsCampaignManager instance = null;
