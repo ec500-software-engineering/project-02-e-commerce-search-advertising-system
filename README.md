@@ -39,22 +39,17 @@ Note:
     * Campaign
       * A campaign focuses on a theme or a group of products
     * set a budget
-    * choose your audience
-    * write your ads including keywords and content.
-    * Google Adwords is also a good place to make your own ads.
+    * Pclick: it is a frequency number of clicks among 100 times release.
+    * Relevant Score: it is the ratio of number of keywords in query and number of keywords in matched ads.
+    * Quality Score: it is corelated to Pclick and relevant score, allows system to rank ads.
 
 ## Ads Searching System Schema:  
 ### Query Understanding:  
    *  Cleaning:
        *  remove stop words: a, an, the ...
        *  remove ending s, ‘s
-   *  Query Intent Prediction:  
-       *  predict user’s intent
-       *  buy Harry Potter DVD online -> Harry Potter DVD
-     *  need query history log  
-   *  Query Expansion:  
-       *  nike running shoe -> nike running sneakers  
-       *  software developer -> software engineer  
+   *  Query Understanding:
+       *  i like soxxxfa -> sofa
    Result: a list of query    
 ### Select Ads:   
   *  send query understand result to index and select as much candidates as possible  
@@ -66,6 +61,10 @@ Note:
      *  bid price   
 ### Select Top K ads
   *  Top K ads are selected to be displayed in front of users according to the rank scores.
+
+### Inverted Index and Forwarded Index:
+![Image text](https://github.com/ec500-software-engineering/project-e-commerce-search-advertising-system/blob/master/images/database.png)   
+Inverted Index is built in Memcached, while forwarde index is built in MongoDB.
 
 ## Web Crawler
 Making requests and extracting data from the response.
