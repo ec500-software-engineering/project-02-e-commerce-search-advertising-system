@@ -65,9 +65,6 @@ __Step2. Get source code from Github and run ads-searching-system server__
 ##### Cloud Platform: Heroku
 [Heroku]() is a cloud Platform-as-a-Service (PaaS) supporting several programming languages. It provides us one free instance to deploy our project without any cost. Plus, it contains lots of add-ons which are easy to use for our project. 
 
-##### Unit Testing: JUnit
-[JUnit](junit.org/) is a unit testing framework to write repeatable tests. These unit tests are typically written and run by software developers to ensure that code meets its design and behaves as intended.
-
 ##### Build Tool: Maven
 [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
