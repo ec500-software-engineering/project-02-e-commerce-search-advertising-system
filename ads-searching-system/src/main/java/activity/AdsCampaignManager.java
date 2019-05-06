@@ -39,10 +39,14 @@ public class AdsCampaignManager {
     public List<Ad> applyBudget(List<Ad> candidateAds) {
         List<Ad> ads = new ArrayList<Ad>();
 
-        for (int i = 0; i < candidateAds.size() - 1; i++) {
+        for (int i = 0; i < candidateAds.size(); i++) {
             Ad ad = candidateAds.get(i);
             long campaignId = ad.getCampaignId();
             Campaign campaign = AdsIndex.getInstance().getCampaign(campaignId);
+            if (campaign == null) {
+                campaign = new Campaign();
+                campaign.setBudget(60000);
+            }
             double budget = campaign.getBudget();
             System.out.println("budget~~"+budget);
             if (ad.getCostPerClick() <= budget && ad.getCostPerClick() >= MIN_RESERVE_PRICE) {

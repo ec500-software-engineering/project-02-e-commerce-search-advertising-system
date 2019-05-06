@@ -47,7 +47,7 @@
         </div>
 
         <div class="alert alert-self" role="alert">
-            <strong><img src="webapp/img/github.png" alt="Github"></strong> <a href ="https://github.com/ec500-software-engineering/project-02-e-commerce-search-advertising-system" >https://github.com/qzhizhou/Ads-Searching-System</a>
+            <strong><img src="webapp/img/github.io" alt="Github"></strong> <a href ="https://github.com/ec500-software-engineering/project-02-e-commerce-search-advertising-system" >https://github.com/qzhizhou/Ads-Searching-System</a>
         </div>
 
         <footer class="footer">

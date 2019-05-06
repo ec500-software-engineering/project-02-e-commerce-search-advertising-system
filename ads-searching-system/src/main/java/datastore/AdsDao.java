@@ -90,7 +90,9 @@ public class AdsDao {
                 keywords = new String[0];
             }
             Double bid = (Double) theObj.get(BID);
+            if (bid == null) bid = new Double(1000);
             Double pClick = (Double) theObj.get(PCLICK);
+            if (pClick == null) pClick = new Double(1.0);
 
             Ad ad = new Ad();
             ad.setAdId(adId);

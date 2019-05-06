@@ -70,6 +70,7 @@ public class AdsIndex {
         Set<Ad> curr = new HashSet<Ad>();
         Set<Long> index = getInvertedIndexFromCache(keyword);
 
+
         if (index == null) {
             curr = AdsDao.getInstance().traverseAds(keyword);
         } else {
@@ -124,6 +125,7 @@ public class AdsIndex {
                     invertedIndex.add(ad.getAdId());
                     getCache().set(invKey, MEMCACHED_EXPIRATION_TIME, invertedIndex);
                 }
+                System.out.println("Memcached now contains: " + keyword + " : " + ad.getAdId());
             }
             return true;
         } catch (IOException e) {
@@ -141,6 +143,7 @@ public class AdsIndex {
     private boolean setCampaignToCache(Campaign campaign) {
         /****** Add one ad to inv index if invKey exist ******/
         try {
+            if (campaign == null) return false;
             String campaignKey = "cmp" + Long.toString(campaign.getCampaignId());
             Campaign existingCampaign = (Campaign) getCache().get(campaignKey);
 

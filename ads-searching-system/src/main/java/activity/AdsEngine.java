@@ -99,6 +99,8 @@ public class AdsEngine {
 
         List<Ad> matchedAds = AdsSelection.getInstance().getMatchedAds(keywords);
 
+        for (Ad ad : matchedAds) System.out.println(ad.getAdId());
+
         List<Ad> filteredAds = AdsFilter.getInstance().filterAds(matchedAds);
 
         List<Ad> rankedAds = AdsRanking.getInstance().rankAds(filteredAds);

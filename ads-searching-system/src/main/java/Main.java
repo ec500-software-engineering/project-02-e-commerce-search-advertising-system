@@ -20,7 +20,7 @@ public class Main {
         if (webPort == null || webPort.length() == 0) {
             webPort = "8081";
         }
-        System.out.println(webPort);
+        System.out.println("Server starts at port " + webPort);
         Server server = new Server(Integer.valueOf(webPort));
         WebAppContext root = new WebAppContext();
         root.setContextPath("/");

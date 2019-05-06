@@ -39,7 +39,7 @@ public class Config {
 //    public static final String USER_DIR = "user.dir";
     public static final String USER_DIR = "user.dir";
 
-    public static final String ADS_LOCATION = "/src/main/resources/ads.json";
+    public static final String ADS_LOCATION = "/src/main/resources/advertise.json";
 
     public static final String CAMPAIGNS_LOCATION = "/src/main/resources/campaign.json";
 
@@ -62,13 +62,13 @@ public class Config {
     // Workflow settings
     public static final int TOP_K_ADS = 5;
 
-    public static final double MIN_RELEVANT_SCORE = 0.3;
+    public static final double MIN_RELEVANT_SCORE = 0;
 
-    public static final double MIN_PCLICK = 0.1;
+    public static final double MIN_PCLICK = 0;
 
-    public static final double MIN_RESERVE_PRICE = 300;
+    public static final double MIN_RESERVE_PRICE = 0;
 
-    public static final double MAINLINE_RESERVE_PRICE = 700;
+    public static final double MAINLINE_RESERVE_PRICE = 0;
 
 
 }
