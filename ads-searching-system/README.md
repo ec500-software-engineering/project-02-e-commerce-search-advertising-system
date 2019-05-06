@@ -10,6 +10,9 @@ The Ads searching system is an ads platform to rank and display ads for users.
 By calculating the relativity between the user's query and the ads provided by merchants, this ads searching system displays the most relevant ads that users are most interested in so that user are more likely to click the ads.
 In the meantime, merchants can easily target the most potential customers and put the right ads with the lowest cost.
 
+## Supported Queries:
+Commodities related to shoes, clothes, electric device, furniture, food, etc.
+
 ### How does it work 
 1. Merchants provide a list of ads which contain keywords, bid price, and total budget. Our system store all the information and build the forwarded and inverted indexes.
 2. When user types the query on the search box, the system parses the query and calculates the relevant score between the query and the ads. Then the system processes a workflow to select, filter, price, and allocate the relevant ads.
