@@ -101,19 +101,3 @@ Challenge:
 * Network I/O(using multi-threaded and non-blocking IO)
 * Avoid Bot Detection(using Spook Http Headers and Proxy Service)
 * Crawler needed to be resilient(log crawled url&failed url&exception)
-
-## Search log data
-Devide IP, Device id, Session id, Query, Adld, Clicked(0/1), Ad category_X_Query category_matched  
-* Goal: generate click log for query intent prediction and click prediction  
-* Method: reverse engineering  
-* Positive feature: IP, devide_id, Adld, QueryCategry_AdsCategory match, Query_CampaignLd match, Query_Adld match  
-* Negative feature: mismatached query_category ads_category, mismatched Query_Campaignld, mismatched Query_Adld, lowest campaignld weight, lowese adld weight per query group  
-### Steps
-* Step 1: Segment users to 4 level(10000 IP, 5 device id per IP, user= ip + device_id)
-    * level 0: 5% of user who click for each query
-    * level 1: 5% of IP whose  1st 2 device id click for each query, reset 3  device_id click on 70% of query, rest of 30% query no click
-    * level 2: 40% of IP from where we random select 1 device_id click for 50% of query, rest of 50% no click, rest of device_id no click.
-    * level 3: 50% never click
-* Step 2: assign campaign ID, Ad id, Click(o/1), Ad category_Query category(0/1) to user
-    * assign weight to campaign ID, Ad IDs
-    * group ad data by Query group ID  
