@@ -68,7 +68,7 @@ public class Config {
 
     public static final double MIN_RESERVE_PRICE = 0;
 
-    public static final double MAINLINE_RESERVE_PRICE = 0;
+    public static final double MAINLINE_RESERVE_PRICE = 1000;
 
 
 }
