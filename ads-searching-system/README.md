@@ -32,9 +32,7 @@ __Step1. Install MongoDB and Memcached__
 __Step2. Get source code from Github and run ads-searching-system server__
 
 1. Clone the project from github: `$ git clone https://github.com/qzhizhou/Ads-Searching-System.git`
-2. Go to project folder, open the project in IntelliJ by the POM file
-3. Run `$ mvn clean install` to compile and install the project
-4. Right click the `Main` java file under java folder, click on `Run Main.main()` button
+2. Open the ads-searching-system folder with IntelliJ, you are able to run the program immediately.
 
 ### Deploy on Heroku
 1. Create an account on Heroku
@@ -72,7 +70,6 @@ __Step2. Get source code from Github and run ads-searching-system server__
 [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
 ## Resources
-- [Project Overview](https://www.bittiger.io/microproject/KrPpRGNyDEpk4nSdn)
 - [Heroku](https://dashboard.heroku.com/) for deploying project in the cloud
 
 ## License
